@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+
+body {
+		text-align: center;
+
+    overflow: hidden;
+		background-color: #F4F4F4;
+		}
+
+		p {
+			color: #3a1eff;
+			font-size: 18px;
+			font-weight: regular;
+			text-align: left;
+			font-family: Rubik;
+		}
+
+		a:active {
+		  color: #3a1eff;
+			text-decoration: none;
+			
+		}
+
+		a:visited {
+		  color: #3a1eff;
+			text-decoration: none;
+		}
+
+		a:hover {
+		  color: #F4F4F4;
+		  text-decoration: none;
+			background-color: #3a1eff;
+		}
+
+
+
+
+#spin {
+	-webkit-animation: rotation 6s infinite linear;
+	animation: rotation 6s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+				transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(360deg);
+				transform: rotate(360deg);
+		}
+}

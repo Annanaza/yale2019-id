@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+
+body {
+
+    overflow: hidden;
+		background-color: #F4F4F4;
+		}
+
+
+
+
+p {
+	padding: 180px 150px 0 150px;
+  color: #3a1eff;
+  font-size: 30px;
+  font-weight: meduim;
+  text-align: left;
+  font-family: Rubik;
+}
