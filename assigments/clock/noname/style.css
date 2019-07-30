@@ -1,0 +1,21 @@
+
+@font-face {
+font-family: "Futura";
+src: url(fonts/Futura-Medium-01.ttf);
+}
+
+
+body {
+
+  	background-color: #F4F4F4;
+		}
+
+
+
+    p {
+      color: #3a1eff;
+      font-size: 30px;
+      font-weight: meduim;
+      text-align: center;
+      font-family: Futura;
+    }
